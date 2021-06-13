@@ -71,16 +71,16 @@ export default function LayoutComponent() {
             style={{ backgroundColor: "#E6E6E6", fontWeight: "bold" }}
           >
             <Menu.Item key="1">
-              <NavLink to="/">{t("ABOUT")}</NavLink>
+              <NavLink to="/the-coffee-dev/">{t("ABOUT")}</NavLink>
             </Menu.Item>
             <Menu.Item key="2">
-              <NavLink to="/education">{t("EDUCATION")}</NavLink>
+              <NavLink to="/the-coffee-dev/education">{t("EDUCATION")}</NavLink>
             </Menu.Item>
             <Menu.Item key="3">
-              <NavLink to="/work-experience">{t("WORK_EXPERIENCE")}</NavLink>
+              <NavLink to="/the-coffee-dev/work-experience">{t("WORK_EXPERIENCE")}</NavLink>
             </Menu.Item>
             <Menu.Item key="4">
-              <NavLink to="/skills">{t("SKILLS")}</NavLink>
+              <NavLink to="/the-coffee-dev/skills">{t("SKILLS")}</NavLink>
             </Menu.Item>
           </Menu>
         </Col>
@@ -88,14 +88,14 @@ export default function LayoutComponent() {
           <Content style={{ padding: "0" }}>
             <div style={{ background: "#fff" }}>
               <Switch>
-                <Route exact path="/" component={About} />
-                <Route exact path="/education" component={Education} />
+                <Route exact path="/the-coffee-dev/" component={About} />
+                <Route exact path="/the-coffee-dev/education" component={Education} />
                 <Route
                   exact
-                  path="/work-experience"
+                  path="/the-coffee-dev/work-experience"
                   component={WorkExperience}
                 />
-                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/the-coffee-dev/skills" component={Skills} />
               </Switch>
             </div>
           </Content>
