@@ -3,8 +3,6 @@ import { useSelector } from "react-redux";
 import { Switch, Route, NavLink } from "react-router-dom";
 import { Row, Col, Menu, Layout, Divider } from "antd";
 import About from "./About";
-import Education from "./Education";
-import WorkExperience from "./WorkExperience";
 import Skills from "./Skills";
 import avatar from "../assets/avatar.jpg";
 import LanguageSelector from "./LanguageSelector";
@@ -73,12 +71,6 @@ export default function LayoutComponent() {
             <Menu.Item key="1">
               <NavLink to="/the-coffee-dev/">{t("ABOUT")}</NavLink>
             </Menu.Item>
-            <Menu.Item key="2">
-              <NavLink to="/the-coffee-dev/education">{t("EDUCATION")}</NavLink>
-            </Menu.Item>
-            <Menu.Item key="3">
-              <NavLink to="/the-coffee-dev/work-experience">{t("WORK_EXPERIENCE")}</NavLink>
-            </Menu.Item>
             <Menu.Item key="4">
               <NavLink to="/the-coffee-dev/skills">{t("SKILLS")}</NavLink>
             </Menu.Item>
@@ -89,12 +81,6 @@ export default function LayoutComponent() {
             <div style={{ background: "#fff" }}>
               <Switch>
                 <Route exact path="/the-coffee-dev/" component={About} />
-                <Route exact path="/the-coffee-dev/education" component={Education} />
-                <Route
-                  exact
-                  path="/the-coffee-dev/work-experience"
-                  component={WorkExperience}
-                />
                 <Route exact path="/the-coffee-dev/skills" component={Skills} />
               </Switch>
             </div>
