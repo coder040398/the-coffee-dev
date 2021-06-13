@@ -74,7 +74,7 @@ export default function LayoutComponent() {
               <NavLink to="/">{t("ABOUT")}</NavLink>
             </Menu.Item>
             <Menu.Item key="2">
-              <NavLink to="/about">{t("EDUCATION")}</NavLink>
+              <NavLink to="/education">{t("EDUCATION")}</NavLink>
             </Menu.Item>
             <Menu.Item key="3">
               <NavLink to="/work-experience">{t("WORK_EXPERIENCE")}</NavLink>
@@ -88,8 +88,8 @@ export default function LayoutComponent() {
           <Content style={{ padding: "0" }}>
             <div style={{ background: "#fff" }}>
               <Switch>
-                <Route exact path="/the-coffee-dev/" component={About} />
-                <Route exact path="/about" component={Education} />
+                <Route exact path="/" component={About} />
+                <Route exact path="/education" component={Education} />
                 <Route
                   exact
                   path="/work-experience"
