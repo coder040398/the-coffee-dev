@@ -14,7 +14,7 @@ export default function About() {
   useEffect(() => {
     dispatch({
       type: CURRENT_COMPONENT,
-      payload: { component: "Home", sideBarMenuKey: "1" },
+      payload: { component: "About", sideBarMenuKey: "1" },
     });
   }, [dispatch]);
   return (
