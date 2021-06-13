@@ -1,8 +1,8 @@
 import { CURRENT_COMPONENT } from "./types";
 
 const initialState = {
-  currentComponent: "",
-  sideBarMenuItemKey: "",
+  currentComponent: "About",
+  sideBarMenuItemKey: "1",
 };
 
 export default function currentComponent (state = initialState, action) {
