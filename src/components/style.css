@@ -1,0 +1,67 @@
+.ant-card-head {
+  background-color: #e35909 !important;
+}
+
+.ant-timeline-item-head-custom {
+  background-color: #ececec !important;
+}
+
+.ant-timeline-item-tail {
+  border-left: 2px solid#e35909 !important;
+}
+
+.fa-check-circle:before,
+.fa-calendar-minus:before,
+.fa-phone-alt:before,
+.fa-envelope:before,
+.fa-facebook-square:before,
+.fa-linkedin:before,
+.fa-github-square:before,
+.fa-book-open:before,
+.fa-dumbbell:before,
+.fa-language:before,
+.fa-js-square:before,
+.fa-bootstrap:before,
+.fa-node-js:before,
+.fa-database:before,
+.fa-aws:before {
+  color: #e35909;
+  font-size: large;
+}
+
+.fa-headphones:before,
+.fa-html5:before,
+.fa-css3-alt:before,
+.fa-java:before {
+  color: #e35909;
+  font-size: 23px;
+}
+
+.fa-calendar-minus:before,
+.fa-map-marker-alt:before {
+  color: #e35909;
+  font-size: 21px;
+}
+
+.fa-react:before {
+  color: #e35909;
+}
+
+.fa-code:before {
+  color: #e35909;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 414px) {
+  .sidebar {
+    height: 100vh;
+    background-color: #e6e6e6;
+  }
+}
+
+@media screen and (min-width: 415px) {
+  .sidebar {
+    width: 100vh;
+    background-color: #e6e6e6;
+  }
+}
