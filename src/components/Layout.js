@@ -88,7 +88,7 @@ export default function LayoutComponent() {
           <Content style={{ padding: "0" }}>
             <div style={{ background: "#fff" }}>
               <Switch>
-                <Route exact path="/" component={About} />
+                <Route exact path="/the-coffee-dev/" component={About} />
                 <Route exact path="/about" component={Education} />
                 <Route
                   exact
