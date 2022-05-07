@@ -177,7 +177,7 @@ export default function About() {
                 <i class="far fa-calendar-minus"></i> 04/03/1998
               </p>
               <p>
-                <i class="fas fa-phone-alt"></i> 034.456.4040
+                <i class="fas fa-phone-alt"></i> 034.456.4010
               </p>
               <p>
                 <i class="fas fa-envelope"></i> coder040398@gmail.com

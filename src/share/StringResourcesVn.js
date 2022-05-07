@@ -11,7 +11,7 @@ export const StringResourcesVn = {
     "Trong 3 năm tiếp theo có thể đạt được mục tiêu trở thành Team Leader ",
   SUMMARY_5: "Mục tiêu hướng đến vị trí Project Manager",
   CONTACT: "Liên Hệ",
-  BIO: "Tôi suất thân từ gia đình có truyền thống về y học nhưng lại đam mê thuật toán và lập trình. Hiện tại tôi đang làm một Fullstack Developer tại NCCSoft",
+  BIO: "Tôi xuất thân từ gia đình có truyền thống về y học nhưng lại đam mê thuật toán và lập trình. Hiện tại tôi đang làm một Fullstack Developer tại NCCSoft",
   EDUCATION: "Học Vấn",
   WORK_EXPERIENCE: "Kinh Nghiệm",
   SKILLS: "Kỹ Năng",
