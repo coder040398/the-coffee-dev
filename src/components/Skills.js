@@ -27,6 +27,8 @@ export default function Skills() {
         ]}
         subsets={["cyrillic-ext", "greek"]}
       />
+
+      {/*Skills*/}
       <Row>
         <Col xs={24} sm={24} md={24} lg={24} xl={24}>
           <div style={{ backgroundColor: "black" }}>
@@ -77,6 +79,7 @@ export default function Skills() {
             </Card>
           </div>
 
+          {/*Data Base*/}
           <div style={{ margin: " 0 10px 10px" }}>
             <Card
               title="Back End"
@@ -88,7 +91,7 @@ export default function Skills() {
               <Row>
                 <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                   <h3 style={{ marginBottom: 0 }}><i class="fab fa-java"></i> Java</h3>
-                  <Progress percent={70} size="small" strokeColor="#52c41a" status="active" />
+                  <Progress percent={50} size="small" strokeColor="#ffd700" status="active" />
                 </Col>
                 <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                   <h3 style={{ marginBottom: 0 }}><i class="fab fa-node-js"></i> NodeJS</h3>
@@ -108,7 +111,7 @@ export default function Skills() {
               <Row>
                 <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                   <h3 style={{ marginBottom: 0 }}><i class="fas fa-database"></i> SQL</h3>
-                  <Progress percent={60} size="small" strokeColor="#ffd700" status="active" />
+                  <Progress percent={70} size="small" strokeColor="#52c41a" status="active" />
                 </Col>
                 <Col xs={24} sm={24} md={24} lg={24} xl={24}>
                   <h3 style={{ marginBottom: 0 }}><i class="fas fa-database"></i> MongoDB</h3>
@@ -127,7 +130,7 @@ export default function Skills() {
           </div>
           <div style={{ margin: " 0 10px 10px" }}>
             <Card
-              title="Data Platform"
+              title="Cloud"
               bordered={false}
               headStyle={{ fontWeight: "bold", fontSize: 20 }}
               bodyStyle={{ backgroundColor: "#ECECEC", fontWeight: "bold" }}
@@ -141,6 +144,26 @@ export default function Skills() {
               </Row>
             </Card>
           </div>
+
+          {/*Payment*/}
+          <div style={{ margin: " 0 10px 10px" }}>
+            <Card
+              title="Payment Services"
+              bordered={false}
+              headStyle={{ fontWeight: "bold", fontSize: 20 }}
+              bodyStyle={{ backgroundColor: "#ECECEC", fontWeight: "bold" }}
+              style={{ width: "100%" }}
+            >
+              <Row>
+                <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+                  <h3 style={{ marginBottom: 0 }}><i style={{ fontSize: 30 }} class="fab fa-stripe"></i></h3>
+                  <Progress percent={80} size="small" strokeColor="#52c41a" status="active" />
+                </Col>
+              </Row>
+            </Card>
+          </div>
+
+          {/*Language*/}
           <div style={{ margin: " 0 10px 10px" }}>
             <Card
               title={t("LANGUAGE")}
